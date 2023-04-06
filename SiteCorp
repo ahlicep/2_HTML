@@ -140,12 +140,18 @@ footer{
 
 html{
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 table{
     border: 2px solid black;
+    background-color: white;
+
 }
 tr, td, th{
     border: 2px solid black;
 }
 
+body{
+    background-image: url(https://www.casabeta.com.br/wp-content/uploads/2020/09/papelarias-on-line.png);
+}
