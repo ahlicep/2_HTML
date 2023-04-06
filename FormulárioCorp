@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link href="label.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro 🍟</title>
+</head>
+
+<!--Para fazer formulários-->
+<h3><center>Poxa, você clicou mesmo, né? 🤪<br/>
+    Agora, não preencha o formulário e não ganhe 1 cupom de batata frita grande do Méqui! 🍟</h3></center>
+    <center><form>
+    <label for="Nome">Nome completo:</label>
+    <input type="text" name="nome" id="nome" placeholder="Digite o seu nome"><br/>
+    <br/>
+    <label for="nasc">Data de nascimento: </label>
+    <input type="date" name="nasc" id="nasc"><br/>
+    <br/>
+    <label for="cpf">CPF: </label>
+    <input type="text" name="cpf" id="cpf"><br/>
+    <br/>
+    <label for="email">E-mail </label>
+    <input type="email" name="email" id="email"><br/>
+    <br/>
+    <label for="adress">Endereço </label>
+    <input type="text" name="adress" id="adress"><br/>
+
+    <label for="signo">Qual o seu Estado?</label><br/>
+    <select id="estado" name="estado">
+        <option value="AC">Acre</option>
+        <option value="AL">Alagoas</option>
+        <option value="AP">Amapá</option>
+        <option value="AM">Amazonas</option>
+        <option value="BA">Bahia</option>
+        <option value="CE">Ceará</option>
+        <option value="DF">Distrito Federal</option>
+        <option value="ES">Espírito Santo</option>
+        <option value="GO">Goiás</option>
+        <option value="MA">Maranhão</option>
+        <option value="MT">Mato Grosso</option>
+        <option value="MS">Mato Grosso do Sul</option>
+        <option value="MG">Minas Gerais</option>
+        <option value="PA">Pará</option>
+        <option value="PB">Paraíba</option>
+        <option value="PR">Paraná</option>
+        <option value="PE">Pernambuco</option>
+        <option value="PI">Piauí</option>
+        <option value="RJ">Rio de Janeiro</option>
+        <option value="RN">Rio Grande do Norte</option>
+        <option value="RS">Rio Grande do Sul</option>
+        <option value="RO">Rondônia</option>
+        <option value="RR">Roraima</option>
+        <option value="SC">Santa Catarina</option>
+        <option value="SP">São Paulo</option>
+        <option value="SE">Sergipe</option>
+        <option value="TO">Tocantins</option>
+        <option value="EX">Estrangeiro</option>
+    </select><br/>  
+<br/>
+    <label for="tel">Telefone:</label>
+    <input type="tel" name="tel" id="tel"><br/> 
+    <input type="checkbox" name="whatsapp">Me contate pelo Zap<br/>
+    <input type="checkbox" name="whatsapp">Me contate pelo Facetruque<br/>
+    <input type="checkbox" name="whatsapp">Me contate via Telepatia<br/>
+<br/>
+<br/>
+    <label for="cor">Senha: </label>
+    <input type="password" name="senha" id="senha" placeholder="Digite sua senha"><br/>
+<br/>
+<br/>
+    <input type="button" value="Enviar"><br/></center>
+<br/>
+</form>
+</html>
+
+
+      <!--CSS-->
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+body{
+    background-color:lightpink;
+}
+
