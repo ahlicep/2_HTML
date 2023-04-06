@@ -1,109 +1,3 @@
-<!--HTMLTabela-->
-
-<!DOCTYPE HTML>
-<html>
-  <head>
-    <link href="aula2lor.css" rel="stylesheet" type="text/css">
-  </head>
-  
-    <body><center>
-      <h1> Queima de Estoque!</h1>
-      
-      <!--aqui eu declaro minha tabelinha-->
-      <table>
-
-        <tr cols>
-
-           <td colspan="5"><center><strong>Papelaria Mamaco!</td></center></strong>
-        </tr>
-        
-        <tr>
-            <th>Foto do Item</th>
-            <th>Nome do Item</th>
-            <th>Quantidade em estoque</th>
-            <th>Preço Normal</th>
-            <th>Preço Promocional</th>
-        </tr>
-      <!--aqui eu tenho minha primeira linha (TR= table roll)-->
-        <tr>
-            <td><img src ="https://d1rpfggbb8iuri.cloudfront.net/Custom/Content/Products/98/97/989709_post-it-recado-adesivo-removivel-kit-com-4-blocos-coloridos_z7_637993757344128844.jpg" alt= "postit" style="height: 350px;"/>        </td>
-            <td><center> Post-It </td></center>
-            <td><center> 20 </td> </center>
-            <td><center> R$ 7,00 </td> </center>
-            <td><center> R$ 4,00 </td> </center>
-        </tr>
-        
-        <!--aqui começa outra linha-->
-        <tr>
-            <td><img src ="https://d1rpfggbb8iuri.cloudfront.net/Custom/Content/Products/12/21/1221920_grampeador-baixo-esforco-stappower-025-folhas-cis-c-40-com-12-unidades_z7_637990470941622580.jpg" alt= "grampeador" style="height: 350px;"/>        </td>
-            <td><center> Grampeador </td></center>
-            <td><center> 10 </td> </center>
-            <td><center> R$ 20,00 </td> </center>
-            <td><center> R$ 15,00 </td> </center>
-            </tr>
-
-        <tr>
-            <td><img src ="https://d1rpfggbb8iuri.cloudfront.net/Custom/Content/Products/10/28/1028589_mouse-usb-optico-3-bot-scrol-logitech-m90-preto_z129_637989397786083747.jpg" alt= "mouse" style="height: 350px;"/>        </td>
-            <td><center> Mouse </td></center>
-            <td><center> 10 </td> </center>
-            <td><center> R$ 40,00 </td> </center>
-            <td><center> R$ 30,00 </td> </center>
-            </tr>
-
-        <tr>
-                <td><img src ="https://d1rpfggbb8iuri.cloudfront.net/Custom/Content/Products/12/15/1215658_marca-texto-maped-6-cores-fluo-peps-pastel-com-12-estojos_z44_637989438087119435.jpg" alt= "marcatexto" style="height: 350px;"/>        </td>
-                <td><center> Conjunto de Marca Texto </td></center>
-                <td><center> 20 </td> </center>
-                <td><center> R$ 30,00 </td> </center>
-                <td><center> R$ 20,00 </td> </center>
-                </tr>
-
-        <tr>
-                <td><img src ="https://d1rpfggbb8iuri.cloudfront.net/Custom/Content/Products/12/24/1224322_fone-ouvido-c-microfone-bluetooth-intra-auricular-t115bt-branco-jbl_z85_637991838337238757.jpg" alt= "fone" style="height: 350px;"/>        </td>
-                <td><center> Fone de Ouvido </td></center>
-                <td><center> 15 </td> </center>
-                <td><center> R$ 70,00 </td> </center>
-                <td><center> R$ 60,00 </td> </center>
-                </tr>
-        
-      </table>
-      <p><a href="SiteMamaco.html" target="_blank" ><< VOLTAR</a></p>      
-    </body></center>
-</html>
-
-
-
-<!--CSSSite-->
-
-html{
-    font-size: 40px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: aquamarine;
-    background-image: url(https://www.casabeta.com.br/wp-content/uploads/2020/09/papelarias-on-line.png);
-}
-
-h1 {
-    background-color: black;
-    color: pink;
-}
-
-
-h2 {
-    background-color: black;
-    color: white;
-  }
-
-h3 {
-    background-color: white;
-
-}
-
-footer{
-    font-size: 15px;
-}
-
-
-
 <!--HTMLSite-->
 
 <!DOCTYPE html>
@@ -136,22 +30,32 @@ footer{
 
 
 
-<!--CSSTabela-->
+
+<!--CSSSite-->
 
 html{
-    font-family: Arial, Helvetica, sans-serif;
-    
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aquamarine;
+    background-image: url(https://www.casabeta.com.br/wp-content/uploads/2020/09/papelarias-on-line.png);
 }
 
-table{
-    border: 2px solid black;
+h1 {
+    background-color: black;
+    color: pink;
+}
+
+
+h2 {
+    background-color: black;
+    color: white;
+  }
+
+h3 {
     background-color: white;
 
 }
-tr, td, th{
-    border: 2px solid black;
-}
 
-body{
-    background-image: url(https://www.casabeta.com.br/wp-content/uploads/2020/09/papelarias-on-line.png);
+footer{
+    font-size: 15px;
 }
