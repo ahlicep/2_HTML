@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<!--Para fazer formulários-->
+<form>
+    <label for="Nome">Nome:</label>
+    <input type="text" name="nome" id="nome" placeholder="Digite o seu nome"><br/>
+
+    <label for="nasc">Data de nascimento: </label>
+    <input type="date" name="nasc" id="nasc"><br/>
+
+    <label for="cor">Qual sua cor favorita? </label>
+    <input type="color"><br/>
+
+<br/>
+    <label for="cor">Senha: </label>
+    <input type="password" name="senha" id="senha" placeholder="Digite sua senha"><br/>
+<br/>
+    <input type="checkbox" name="whatsapp">Me contate pelo WhatsApp<br/>
+    <input type="checkbox" name="whatsapp">Me contate pelo Facetruque<br/>
+    <input type="checkbox" name="whatsapp">Me contate via Telepatia<br/>
+<br/>
+
+    <p>Qual sua faixa etária?</p>
+    <input type="radio" name="idade" value="15_30"> 15 a 30 anos<br/>
+    <input type="radio" name="idade" value="31_40"> 31 a 40 anos<br/>
+    <input type="radio" name="idade" value="41_60"> 41 a 60 anos<br/>
+<br/>
+    <label for="signo">Qual seu signo?</label><br/>
+    <select name="signo" id="signo">
+        <option value="Capricórnio">Capricórnio</option>
+        <option value="Capricórnio">Virgem</option>
+        <option value="Capricórnio">Peixes</option>
+        <option value="Capricórnio">Touro</option>
+    </select>    
+
+<br/>
+    <input type="button" value="Enviar"><br/>
+<br/>
+</form>
+</html>
